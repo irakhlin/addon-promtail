@@ -1,6 +1,6 @@
 ---
 name: Promtail
-url: https://github.com/JeanMertz/addon-promtail
+url: https://github.com/irakhlin/addon-promtail
 version: edge
 slug: promtail
 arch:
@@ -10,6 +10,7 @@ arch:
   - armhf
 description: Promtail for Home Assistant
 codenotary: codenotary@degatano.com
+docker_api: true
 init: false
 journald: true
 map:
